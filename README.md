@@ -90,6 +90,11 @@ origin = alias for the remote
 ### Cloning a repo
 `git clone https://github.com/bijit85/git-command-help.git`
 
+Cloning allows you to work on code on a new machine
+
+### Helpful tips regarding git use
+Go to https://www.git-tower.com/windows
+
 ### Asides
 | Heading1 | Heading2 | Heading3|
 |----------|----------|---------|
