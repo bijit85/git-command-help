@@ -51,4 +51,39 @@ This is a demo git repo with a list of commands as a cheat sheet.
 
 ### Checking the logs
 `git log`
+
+### Create a branch
+`git branch Branch_name`
+
+### Changing branch
+`git checkout Branch_name`
     
+### Merging changes from one branch into main
+`git checkout main`
+`git status`
+`git merge Branch_name`
+`git status`
+`git log`
+
+## Remote Repositories
+Before you ca use remote repository(repo) you need to have created it on the remote system
+
+We will use GitHub for this purpose, other remote repositories that use Git are also valid
+
+### Create a remote repo
+1) Head to http://github.com
+2) If you do not have an account, create a github account
+3) Create a new repo making sure that:
+	- Do not add a README.md
+	- Do not add a License
+	- Do not add a .gitignore
+	- In other words: Do not add anything to the blank repo
+
+### Connecting a remote repo
+`git remote add origin https://github.com/bijit85/git-command-help.git`
+
+origin = alias for the remote
+
+### Asides
+| Heading1 | Heading2 | Heading3|
+|----------|----------|---------|
