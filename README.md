@@ -84,6 +84,12 @@ We will use GitHub for this purpose, other remote repositories that use Git are 
 
 origin = alias for the remote
 
+### Pushing commits to remote
+`git push -u origin main`
+
+### Cloning a repo
+`git clone https://github.com/bijit85/git-command-help.git`
+
 ### Asides
 | Heading1 | Heading2 | Heading3|
 |----------|----------|---------|
