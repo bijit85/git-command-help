@@ -43,5 +43,12 @@ This is a demo git repo with a list of commands as a cheat sheet.
 11) Verify commit
 	`git status`
     
+### Adding files to Tracking
+`git add filename`
+`git add -A`
+`git add foldername/*`
+`git add.`
 
+### Checking the logs
+`git log`
     
